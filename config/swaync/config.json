@@ -1,0 +1,49 @@
+{
+  "positionX": "right",
+  "positionY": "top",
+  "layer": "overlay",
+  "control-center-layer": "overlay",
+  "control-center-positionX": "right",
+  "control-center-positionY": "top",
+  "control-center-margin-top": 8,
+  "control-center-margin-right": 8,
+
+  "fit-to-screen": true,
+  "hide-on-clear": false,
+  "hide-on-action": true,
+
+  "widgets": [
+    "title",
+    "dnd",
+    "volume",
+    "mpris",
+    "notifications"
+  ],
+
+  "widget-config": {
+    "power": {
+    "label": "Power"
+    },
+    "title": {
+      "text": "Control Centre"
+    },
+    "dnd": {
+      "text": "Do Not Disturb"
+    },
+    "volume": {
+      "label": "Volume"
+    },
+    "mpris": {
+      "image-size": 64,
+      "image-radius": 8
+    }
+  },
+
+  "actions": [
+  {
+    "label": "Power",
+    "command": "~/.local/bin/powermenu"
+  }
+]
+
+}
