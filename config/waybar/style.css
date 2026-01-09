@@ -1,0 +1,38 @@
+* {
+font-family: JetBrainsMono, monospace;
+font-size: 14px;
+}
+
+#workspaces {
+margin: 0 12px;
+}
+
+#workspaces button {
+padding: 0 10px;
+margin: 0 4px;
+min-width: 26px;
+border-radius: 8px;
+opacity: 0.55;
+}
+
+#workspaces button.active {
+opacity: 1;
+font-weight: 700;
+}
+
+#workspaces button.urgent {
+opacity: 1;
+}
+
+#workspaces button.active {
+background: rgba(108, 92, 231, 0.9);
+color: #ffffff;
+font-weight: bold;
+}
+
+#network, #clock, #custom-notifications {
+padding: 0 10px;
+margin: 0 4px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.06);
+}
