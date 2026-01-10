@@ -1,13 +1,19 @@
-UNIT FILE                          STATE   PRESET
-getty@.service                     enabled enabled
-NetworkManager-dispatcher.service  enabled disabled
-NetworkManager-wait-online.service enabled disabled
-NetworkManager.service             enabled disabled
-sddm.service                       enabled disabled
-systemd-timesyncd.service          enabled enabled
-vboxservice.service                enabled disabled
-systemd-userdbd.socket             enabled enabled
-remote-fs.target                   enabled enabled
-fstrim.timer                       enabled disabled
+# Core system
+getty@.service
+systemd-timesyncd.service
+systemd-userdbd.socket
+fstrim.timer
 
-10 unit files listed.
+# Networking
+NetworkManager.service
+NetworkManager-dispatcher.service
+NetworkManager-wait-online.service
+
+# Display / session
+sddm.service
+
+# VM-specific (safe to keep on bare metal)
+vboxservice.service
+
+# Targets
+remote-fs.target
