@@ -42,7 +42,7 @@
   "actions": [
   {
     "label": "Power",
-    "command": "~/.local/bin/powermenu"
+    "command": "$HOME/.local/bin/powermenu"
   }
 ]
 

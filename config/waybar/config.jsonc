@@ -40,7 +40,7 @@
   "interval": 3600,
   "tooltip": false,
   "on-click": "swaync-client -t",
-  "on-click-right": "/home/jacob/.local/bin/powermenu >/dev/null 2>&1"
+  "on-click-right": "$home/.local/bin/powermenu >/dev/null 2>&1"
   },
 
   "clock": {
